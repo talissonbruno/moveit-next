@@ -6,7 +6,7 @@ import { CompletedChallenges } from "../components/CompletedChallenges";
 import { Countdown } from "../components/Countdown";
 
 import Head from 'next/head';
-
+/**#jornadainfinita */
 export default function Home() {
   return (
     <div className={styles.container}>
