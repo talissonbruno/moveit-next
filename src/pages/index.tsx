@@ -1,12 +1,16 @@
+import Head from 'next/head';
+
 import { Profile } from "../components/Profile";
 import { ExperienceBar } from "../components/ExperienceBar";
-
-import styles from '../styles/pages/Home.module.css';
 import { CompletedChallenges } from "../components/CompletedChallenges";
 import { Countdown } from "../components/Countdown";
+import { ChallengeeBox } from "../components/ChallengeBox";
 
-import Head from 'next/head';
+import styles from '../styles/pages/Home.module.css';
+
+
 /**#jornadainfinita */
+/**#focopraticagrupo */
 export default function Home() {
   return (
     <div className={styles.container}>
@@ -21,7 +25,7 @@ export default function Home() {
           <Countdown />
         </div>
         <div>
-
+          <ChallengeeBox />
         </div>
       </section>
     </div>
